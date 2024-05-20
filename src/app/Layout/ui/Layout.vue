@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="flex flex-col items-center justify-center">
     <div class="flex justify-center gap-4">
@@ -7,9 +5,12 @@
       <router-link to="/about">Go to About</router-link>
     </div>
 
-    
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {};
+</script>
 
 <style scoped></style>
